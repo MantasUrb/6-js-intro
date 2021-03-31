@@ -59,10 +59,10 @@ const backKabute210 = `Cia yra dviguba (") ir vienguba (') ir backtick (\`) kabu
 console.log(backKabute210);
 
 const head = '<head>\n\
-    <meta charset="UTF-8">\n\
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n\
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n\
-    <title>JS Intro</title>\n\
+<meta charset="UTF-8">\n\
+<meta http-equiv="X-UA-Compatible" content="IE=edge">\n\
+<meta name="viewport" content="width=device-width, initial-scale=1.0">\n\
+<title>JS Intro</title>\n\
 </head>';
 console.log(head);
 
@@ -73,3 +73,11 @@ const headBack = `<head>
 <title>JS Intro</title>
 </head>`
 console.log(headBack);
+
+console.log ('..............')
+
+const headBackSize = headBack.length;
+console.log(headBackSize);
+
+const headSize = head.length;
+console.log(headSize);

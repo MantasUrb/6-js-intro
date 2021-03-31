@@ -79,9 +79,10 @@ console.log('..............')
 Apskaiciuoti pazymiu vidurki
 */
 
-let index = 0;
+let index = -1;
 let totalSum4 = 0;
 
+index += 1;
 totalSum4 += marks[index];
 console.log(totalSum4);
 
