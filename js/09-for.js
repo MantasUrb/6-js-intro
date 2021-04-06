@@ -36,12 +36,12 @@ for (let i = nuo2; i >= iki2; i--) {
 
 console.log('.......................');
 
-// teksto ilgis in i-oji raide
+// teksto ilgis ir i-oji raide
 
 const hi = 'labas';
 
 for (let i = 0; i < hi.length; i++ ) {
-    const raide = (hi[i]);
+    const raide = hi[i];
     console.log(raide);
 }
 

@@ -62,11 +62,11 @@ Apskaiciuoti pazymiu vidurki
 console.log('..............')
 
 let totalSum3 = 0;     // 0
-totalSum3 =+ marks[0]  // 10
-totalSum3 =+ marks[1]  // 12
-totalSum3 =+ marks[2]  // 20
-totalSum3 =+ marks[3]  // 24
-totalSum3 =+ marks[4]  // 30
+totalSum3 += marks[0]  // 10
+totalSum3 += marks[1]  // 12
+totalSum3 += marks[2]  // 20
+totalSum3 += marks[3]  // 24
+totalSum3 += marks[4]  // 30
 
 const count3 = marks.length;
 
@@ -91,15 +91,15 @@ totalSum4 += marks[index];
 console.log(totalSum4);
 
 index += 1;
-totalSum4 +=marks[index];
+totalSum4 += marks[index];
 console.log(totalSum4);
 
 index += 1;
-totalSum4 +=marks[index];
+totalSum4 += marks[index];
 console.log(totalSum4);
 
 index += 1;
-totalSum4 +=marks[index];
+totalSum4 += marks[index];
 console.log(totalSum4);
 
 const average4 = totalSum4 / marks.length;

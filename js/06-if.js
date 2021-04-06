@@ -4,7 +4,10 @@ IF - salygos sakinys, kuris atsako i klausima: true arba false.
 Galimi sablonai
 if () {}
 if () {} else {}
-if () {} else if () {} ... else if () {} else
+if () {} else if {}
+if () {} else if {} ... else if {}
+if () {} else if {} ... else if {} else {}
+
 
 
 Palyginimo operatoriai:
