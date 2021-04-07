@@ -19,7 +19,7 @@ console.log('..............')
 const x = 'sula';
 
 for (let i = x.length - 1; i <= x.length; i--) {
-    if ( i < 0 ) { break; }
+    if ( i < 0 ) { break };
     const raide = x[i];
     console.log(raide);
 }
@@ -46,3 +46,4 @@ console.log('..............')
 //Ciklo FOR panaudojimas - pabaiga
 
 
+// 
