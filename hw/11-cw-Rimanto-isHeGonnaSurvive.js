@@ -1,0 +1,8 @@
+function hero(b, d) {return enough = b >= d * 2 ? true : false}
+
+console.log(hero(10, 5));
+console.log(hero(7, 4));
+console.log(hero(4, 5));
+console.log(hero(100, 4));
+console.log(hero(1500, 751));
+console.log(hero(0, 1));
