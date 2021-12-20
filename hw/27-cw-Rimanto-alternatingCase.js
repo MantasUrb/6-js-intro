@@ -1,4 +1,4 @@
-function toAlterCase(string) {
+function toAlternatingCase(string) {
     let newString = ''
     for (let i = 0; i < string.length; i++) {
     newString += string[i] === string[i].toUpperCase() ? string[i].toLowerCase() : string[i].toUpperCase()
@@ -6,10 +6,10 @@ function toAlterCase(string) {
     return newString
 }
 
-console.log(toAlterCase("HELLO WORLD"));
-console.log(toAlterCase("hello world"));
-console.log(toAlterCase("Hello World"));
-console.log(toAlterCase("Hello World"))
+console.log(toAlternatingCase("HELLO WORLD"));
+console.log(toAlternatingCase("hello world"));
+console.log(toAlternatingCase("Hello World"));
+console.log(toAlternatingCase("Hello World"))
 
 
 describe("String.prototype.toAlternatingCase", _ => {
